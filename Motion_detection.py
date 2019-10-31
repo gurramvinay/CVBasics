@@ -35,8 +35,6 @@ while True:
 
     frame1 = frame2
     ret, frame2 = cap.read()
-    frame1=frame2
-    ret,frame2=cap.read()
     
     if not ret:
         break
